@@ -1,0 +1,123 @@
+/*.container{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+*/
+header {
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	background-color: grey;
+	border-bottom: 1px solid black;
+}
+nav{
+	height:15px;
+	width: 100%;
+	text-align: right;
+	font-size: 15px;
+	position:absolute;
+	top:9px;
+}
+
+a{
+text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h2{
+	text-align: left;
+	display: inline-block;
+	color: black;
+
+}
+
+li a{
+	color:black;
+}
+nav ul{
+	display: inline-block;
+	padding-right: 60px;
+}
+
+nav li{
+	display: inline-block;
+	font-size: 18px;
+	padding-right: 18px;
+}
+
+body{
+	font-family: "Roboto" , sans-serif;
+}
+
+.label{
+	margin-top: 20px;
+	margin-left: 40px;
+
+}
+
+label{
+display:block;
+
+}
+
+input{
+	width:400px;
+}
+
+.magGlass{
+	width:17px;
+	border:1px solid lightgray;
+	vertical-align: middle; 
+}
+.search{
+margin-bottom:30px;
+margin-top:80px;
+}
+.previous,.next,.numbers{
+	display:inline;
+}
+.numbers{
+	padding: 8px 25px;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+.previous{
+	display: inline-block;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+.next{
+	display: inline-block;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+
+.pager{
+	display: inline-block;
+    margin-bottom: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    margin-left:41px;
+    padding-left:5px;
+	
+}
+
+.listing{
+	list-style: none;
+
+}
+
+.listing-details{
+	color:grey;
+}
+
+.jobTitle{
+	color:blue;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 5px;
+}
